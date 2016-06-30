@@ -1,0 +1,96 @@
+
+
+URxvt*termName: rxvt
+!URxvt*background  #12253
+URxvt*font:     xft:Hack:size=11:antialias=true:style=book
+URxvt.letterSpace: -1
+URxvt.lineSpace: 6  
+Urxvt.scrollBar: false
+URxvt.scrollstyle: plain
+URxvt.perl-ext-common: default,matcher,...,tabbed,...
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+
+------------------------------------------------------------------------------
+
+! --- special colors ---
+! Medium Flat Grey
+URxvt*background: #2A313B
+URxvt*foreground: #e5e4e7
+
+! --- standard colors ---
+
+! Black
+*color0: #000000
+
+! Brown
+*color8: #808080
+
+! Pink/Orange 
+*color1: #d09fb1
+
+! Pastel Pink
+*color9: #debbc8
+
+! Pastel Green
+*color2: #b1d09f
+
+! Paler Green
+*color10: #c8debb
+
+! Pastel Yellow
+*color3: #d0be9f
+
+! Dull Gold
+*color11: #ded1bb
+
+! Pastel Baby Blue
+*color4: #9fb1d0
+
+! Dull Blue
+*color12: #bbc8de
+
+! Magenta
+*color5: #be9fd0
+
+! Bright Magenta
+*color13: #d1bbde
+
+! Dull Turquoise
+*color6: #9fd0be
+
+! Dull Green
+*color14: #bbded1
+
+! Eggshell
+*color7: #e8e8e8
+
+! Off White
+*color15: #ffffff
+
+
+
+! ################ ROFI #################
+
+! Appearance
+
+rofi.width: 25ofi.color-enabled: true
+rofi.color-window: #e6e6e6, #364759, #497391
+rofi.color-normal: #e6e6e6, #002b36, #d7d7d7, #497391, #ffffff
+rofi.color-active: #e6e6e6, #497391, #d7d7d7, #497391, #ffffff
+rofi.color-urgent: #e6e6e6, #dc322f, #d7d7d7, #dc322f, #ffffff
+rofi.separator-style: solid
+rofi.lines: 5
+rofi.colour-enabled: true
+rofi.opacity: 100
+rofi.hide-scrollbar: true
+rofi.font: Hack 12
+
+
+!Behaviour
+
+rofi.terminal: urxvt
+rofi.fuzzy: true
+

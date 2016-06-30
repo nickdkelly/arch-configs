@@ -1,0 +1,10 @@
+remove mod4 = Super_L
+remove control = Control_L
+keycode 133 = Control_L
+add control = Control_L
+
+pointer = 1 2 3 5 4 6 7 8 9 10 11 12
+
+keycode 49 = grave asciitilde
+keycode 94 = numbersign
+
